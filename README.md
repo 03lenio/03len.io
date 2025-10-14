@@ -1,38 +1,27 @@
-# sv
+# 🌐 My Personal Website 🚀
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the repository for my **personal website** @ [03len.io](https://03len.io), now built with **SvelteKit**! 🎉 This project is a port of my original **Vanilla JS** website, reimagined to be more scalable, maintainable, and future-proof. 
 
-## Creating a project
+## ✨ Why the Port?
 
-If you're seeing this, you've probably already done this step. Congrats!
+The primary motivation for this port was to enable the integration of a backend in the future. This will allow me to dynamically manage the presentation of my projects and content without directly modifying the codebase. With **SvelteKit**, I can easily extend the site to support dynamic data fetching, server-side rendering, and more!
 
-```sh
-# create a new project in the current directory
-npx sv create
+## 🛠️ Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+Here's the tech stack powering this project:
 
-## Developing
+- **Frontend Framework**: [SvelteKit](https://kit.svelte.dev/) 🧡
+- **Styling**: TailwindCSS 🌈
+- **State Management**: Built-in Svelte stores ⚡
+- **Tooling**: TypeScript for type safety 🛡️
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 📂 Features
 
-```sh
-npm run dev
+- **Dark Mode Toggle**: Built-in dark mode support with local storage persistence.
+- **Responsive Design**: Fully responsive layout for all devices.
+- **Future-Ready**: Backend-ready architecture for dynamic content management.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 📦 Future Plans
+- Integrate a backend (e.g., Flask (It's gonna be flask)
+- Add a database to manage projects and content dynamically.
+Enhance animations and interactivity.
