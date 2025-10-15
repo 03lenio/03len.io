@@ -15,8 +15,6 @@
         }
         localStorage.setItem('darkMode', isDarkMode ? 'enabled' : 'disabled');
     }
-    
-    // Apply the saved theme on page load
    
 </script>
 
